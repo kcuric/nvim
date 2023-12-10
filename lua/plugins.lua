@@ -23,7 +23,7 @@ local plugins = {
 	"hrsh7th/nvim-cmp",
 	"hrsh7th/cmp-nvim-lsp",
 	"L3MON4D3/LuaSnip",
-	"EdenEast/nightfox.nvim",
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	'm4xshen/autoclose.nvim',
 	{
 	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
@@ -35,7 +35,8 @@ local plugins = {
 	"neovim/nvim-lspconfig",
 	"lewis6991/gitsigns.nvim", 
 	'nvim-tree/nvim-web-devicons', 
-	'romgrk/barbar.nvim'
+	'romgrk/barbar.nvim',
+	'christoomey/vim-tmux-navigator'
 }
 
 require("lazy").setup(plugins)

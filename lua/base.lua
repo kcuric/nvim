@@ -1,7 +1,7 @@
 vim.o.updatetime=300
 vim.o.incsearch=false
 vim.wo.signcolumn='yes'
-vim.cmd.colorscheme "carbonfox"
+vim.cmd.colorscheme "catppuccin-mocha"
 vim.wo.relativenumber=true
 
 vim.opt.tabstop = 2
